@@ -39,6 +39,8 @@ CHECKPOINT_MODELS=(
     #"https://huggingface.co/stabilityai/stable-diffusion-2-1/resolve/main/v2-1_768-ema-pruned.ckpt"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0/resolve/main/sd_xl_base_1.0.safetensors"
     #"https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0/resolve/main/sd_xl_refiner_1.0.safetensors"
+    #Flux_Realistic https://civitai.com/models/652009/fluxrealistic
+    "https://civitai.com/api/download/models/963489?type=Model&format=GGUF&size=pruned&fp=fp8"
     #toonyou
     "https://civitai.com/api/download/models/125771?type=Model&format=SafeTensor&size=pruned&fp=fp16"
     #dreamshaper8
@@ -56,25 +58,31 @@ UNET_MODELS=(
 
 LORA_MODELS=(
     #add more details https://civitai.com/models/82098/add-more-details-detail-enhancer-tweaker-lora
-    "https://civitai.com/api/download/models/87153?type=Model&format=SafeTensor"
+    #"https://civitai.com/api/download/models/87153?type=Model&format=SafeTensor"
+
+    # Flux Ancient Style Lora https://civitai.com/models/715253/flux-ancient-style-lora trigger:ancientstyle
+    "https://civitai.com/api/download/models/799872?type=Model&format=SafeTensor"
+    
+    #Flux Image Enhancer - by Dever https://civitai.com/models/658922/flux-image-enhancer-by-dever 
+    "https://civitai.com/api/download/models/737284?type=Model&format=SafeTensor"
     
     # epi_noiseoffset https://civitai.com/models/13941/epinoiseoffset
-    "https://civitai.com/api/download/models/16576?type=Model&format=SafeTensor&size=full&fp=fp16"
+    #"https://civitai.com/api/download/models/16576?type=Model&format=SafeTensor&size=full&fp=fp16"
     
     #Ronald McDonald https://civitai.com/models/165085/ronald-mcdonald trigger: ronaldmcdonald clown red hair
-    "https://civitai.com/api/download/models/185865?type=Model&format=SafeTensor"
+    #"https://civitai.com/api/download/models/185865?type=Model&format=SafeTensor"
     
     #Better Watercolor painting https://civitai.com/models/79715/better-watercolor-painting-in-the-style-of-iris-compiet trigger:IrisCompiet
-    "https://civitai.com/api/download/models/84535?type=Model&format=SafeTensor"
+    #"https://civitai.com/api/download/models/84535?type=Model&format=SafeTensor"
     
     #KIDS ILLUSTRATION https://civitai.com/models/60724/kids-illustration trigger: NONE
-    "https://civitai.com/api/download/models/67980?type=Model&format=SafeTensor"
+    #"https://civitai.com/api/download/models/67980?type=Model&format=SafeTensor"
 
     #Comically Large Spoon https://civitai.com/models/93222/comically-large-spoon-or-concept-lora trigger:ComicallyLargeSpoon
-    "https://civitai.com/api/download/models/99396?type=Model&format=SafeTensor"
+    #"https://civitai.com/api/download/models/99396?type=Model&format=SafeTensor"
 
     #Art Nouveau Style https://civitai.com/models/182980/art-nouveau-style trigger:art nouveau, alphonse mucha, ivan bilibin
-    "https://civitai.com/api/download/models/875868?type=Model&format=SafeTensor"
+    #"https://civitai.com/api/download/models/875868?type=Model&format=SafeTensor"
 )
 
 VAE_MODELS=(
